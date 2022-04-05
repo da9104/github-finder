@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Work Sans', sans-serif;
+}
+ul {
+    list-style: none;
+    background-color: #cdc;
+    padding: 1rem;
+    margin: 1rem;
+}
+li {
+   margin-bottom: 10px; 
+   padding-bottom: 10px; 
+   border-bottom: 1px solid #eee;
+}
+
+    </style>
+</head>
+<body>  
+    <form action="">
+    <h2>
+        Find Github users
+    </h2>
+    <label for="search">
+        Type Users
+    </label>
+    <input type="text" name="search">
+    <div>
+        <button type="submit" class="button-primary">Submit</button>
+        <button type="button" class="button">Clear</button>
+    </div>
+    </form>
+    <div id="root"></div>
+    <script src="./main.js"></script>
+</body>
+</html>
