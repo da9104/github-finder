@@ -1,4 +1,4 @@
 <IfModule mod_headers.c>
- Header always set Permissions-Policy:  fullscreen=(self "https://da9104.github.io/github-finder/" "https://da9104.github.io/github-finder"),
-    geolocation=*, camera=(), interest-cohort=()
+ Header always set Permissions-Policy: interest-cohort=(),
+ geolocation=*, camera=()
 </IfModule>
