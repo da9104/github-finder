@@ -1,0 +1,2 @@
+Permissions-Policy: fullscreen=(self "https://da9104.github.io/github-finder/" "https://da9104.github.io/github-finder"),
+    geolocation=*, camera=()
