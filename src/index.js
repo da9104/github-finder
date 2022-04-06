@@ -1,7 +1,12 @@
 import Form from './Form';
 import CardList from './CardList';
 
+
 class App {
+
+
+
+
     constructor() {
         this.cards = this.getCards();
         this.addCard = this.addCard.bind(this);
@@ -27,6 +32,10 @@ class App {
             return [];
         }
     }
+
+
+
+
 }
 
 const app = new App();
