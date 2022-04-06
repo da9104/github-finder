@@ -42,3 +42,8 @@ const app = new App();
 const form = new Form(app.addCard, app.clearCards);
 export const render = (html, node) => (node.innerHTML = html);
 CardList(app.cards);
+
+app.use((req, res, next) => {
+    res.setHeader("Permissions-Policy", "interest-cohort=()");
+    return next();
+});
